@@ -18,22 +18,22 @@ const questions = [
     {
         type: 'input',
         name: 'installation',
-        message: 'To be added',
+        message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.',
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'To be added',
+        message: 'How do you use this application? Provide instructions and examples for use. Include screenshots as needed.',
     },
     {
         type: 'input',
         name: 'contributing',
-        message: 'To be added',
+        message: 'How can other developers contribute to your project? Provide guidelines for how they can make contributions.',
     },
     {
         type: 'input',
         name: 'test',
-        message: 'To be added',
+        message: 'How can your project be tested? Provide examples of how to run these tests.',
     },
       // TODO: Add more questions here
 ];
