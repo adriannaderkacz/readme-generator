@@ -13,27 +13,27 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Provide a short description explaining the what, why, and how of your project.',
+        message: 'Provide brief description of your project.',
     },
     {
         type: 'input',
         name: 'installation',
-        message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.',
+        message: 'How can someone install and set up your project?',
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'How do you use this application? Provide instructions and examples for use. Include screenshots as needed.',
+        message: 'Explain how to use your application.',
     },
     {
         type: 'input',
         name: 'contributing',
-        message: 'How can other developers contribute to your project? Provide guidelines for how they can make contributions.',
+        message: 'How can other developers contribute to your project?',
     },
     {
         type: 'input',
         name: 'test',
-        message: 'How can your project be tested? Provide examples of how to run these tests.',
+        message: 'How can your project be tested?',
     },
     {
         type: 'list',
@@ -44,7 +44,7 @@ const questions = [
     {
         type: 'input',
         name: 'github',
-        message: 'What is your GitHub username?,
+        message: 'Enter your GitHub username?',
     },
     {
         type: 'input',
