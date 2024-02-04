@@ -1,4 +1,4 @@
-// function to generate markdown for README
+// function to generate markdown for SAMPLE_README
 function generateMarkdown(data) {
   return `
   # ${data.title}
@@ -27,12 +27,12 @@ function generateMarkdown(data) {
   ${data.contributing}
 
   ## Tests
-${data.tests}
+  ${data.tests}
 
-## Questions
-For questions, please contact me at ${data.email}.
-GitHub: [${data.github}](https://github.com/${data.github})
-`;
+  ## Questions
+  For questions, please contact me at ${data.email}.
+  GitHub: [${data.github}](https://github.com/${data.github})
+  `;
 }
 
 module.exports = generateMarkdown;
