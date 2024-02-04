@@ -32,7 +32,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'test',
+        name: 'tests',
         message: 'How can your project be tested?',
     },
     {
@@ -53,11 +53,11 @@ const questions = [
     }
 ];
 
-// function to write README file
+// function to write SAMPLE_README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if (err) throw err;
-        console.log('README.md has been generated!');
+        console.log('SAMPLE_README.md has been generated!');
       });
 }
 
@@ -66,7 +66,7 @@ function init() {
     inquirer.prompt(questions)
     .then((answers) => {
       const markdownContent = generateMarkdown(answers);
-      writeToFile('README.md', markdownContent);
+      writeToFile('SAMPLE_README.md', markdownContent);
     });
 }
 
